@@ -1,0 +1,358 @@
+/* header {
+    position: static; 
+    background: white;  
+    border-color: grey;
+    border-bottom: solid;
+    border-width: 1px; 
+    padding: 0px 0px .01em 0px; 
+    z-index: 1;
+} */
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between; 
+    background-color: white; 
+    border-bottom: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+}
+
+.nameboxWrapper {
+    margin-left: 9em; 
+    
+}
+
+.nameBox {
+    padding: 1em 1.5em; 
+    font-family: 'BioRhyme', serif;
+    letter-spacing: .05em;
+    font-weight: 500; 
+    font-size: 24px; 
+    font-weight: bold;    
+    background-color: #4aaaa5;
+    color: white; 
+}
+
+.navBar {
+    list-style-type: none;
+    font-family: 'BioRhyme', serif;
+    border-width: 2px; 
+    padding: 1.5em 3em 1em 3em;    
+
+ 
+    /* float: right; */
+    /* position: absolute;  */
+    /* top: 0%; 
+    left: 60%;  */
+
+}
+
+.headerLinks {
+    color: grey;   
+    list-style-type: none;
+    float: left;
+    padding-right: 2em; 
+    /* margin: 0;
+    padding-top: 8%;
+    overflow: hidden;
+     */
+}
+
+h1 {
+    font-family: 'BioRhyme', serif;
+    padding-bottom: 10px; 
+    border-width: 1px; 
+}
+
+hr {
+    border-color: lightgrey; 
+
+}
+
+.wrapperMain {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 100%; 
+    margin-top: 2em; 
+    margin-bottom: 5em; 
+
+}
+
+.wrapperOne {
+    display: flex;  
+    order: 1; 
+    width: 800px;  
+    margin-right: 2em; 
+    background: white; 
+
+}
+
+.boutMeWrapper {
+    margin: 1em; 
+
+}
+
+#profilePic {
+    margin-left: 30%; 
+    border-radius: 10%; 
+}
+
+.wrapperTwo {
+    display: flex; 
+    justify-content: center; 
+    order: 1; 
+    width: 270px; 
+    /* position: absolute; 
+    top: 16%; 
+    right: 23%;
+    float: left; 
+    border-style: solid; 
+    z-index: 4;
+    padding: 10px 10px 10px 10px;  */
+    background: white; 
+
+}
+
+.connectWrapper {
+    margin-bottom: 1em;
+}
+
+
+#boutMeText {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 10px; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+form {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 10px; 
+}
+
+.formField {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative; 
+    top: 2em; 
+    left: 10%; 
+    margin-right: 50%;
+    background: white; 
+    padding: 15px 15px 15px 15px;
+}
+
+.folioGrid {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative; 
+    top: 2em; 
+    left: 10%; 
+    margin-bottom: 5%; 
+    margin-right: 50%;
+    background: white; 
+    padding: 15px 15px 15px 15px;
+}
+
+/* .overFolio {
+    position: relative;
+    top: 
+    background-color: #4aaaa5;
+    z-index: 4;
+} */
+
+#connectHead {
+    padding-top: 1em; 
+}
+
+
+.connectLinks {
+    padding-top: 10px; 
+    list-style-type: none;
+    float: left; 
+}
+
+.paddingRight {
+    padding-right: 10px;
+}
+
+footer {
+    font-family: 'BioRhyme', serif;
+    color: #D3D3D3; 
+    position: fixed; 
+    bottom: 0%; 
+    right: 0%; 
+    left: 0%; 
+    background: #666666;  
+    z-index: 3;
+    padding: 15px 5em 15px 5em; 
+    text-align: center; 
+    border-top: solid #4aaaa5; 
+    border-width: 3px; 
+    margin-top: 5em; 
+}
+
+a {
+    list-style-type: none;
+}
+
+#backgroundimage
+{
+   height: auto;
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   min-width: 674px;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: -1;
+}
+
+@media screen and (max-width: 980px) {
+
+    .wrapperMain {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+        width: 100%; 
+        margin-top: 2em; 
+        margin-bottom: 5em; 
+        
+    
+    }
+    
+    .wrapperOne {
+        display: flex;  
+        flex: auto; 
+        flex-grow: 1; 
+        order: 1; 
+        width: 55%;  
+        margin-right: 2em; 
+        background: white; 
+        flex: 3; 
+    
+    }
+    
+   .boutMeWrapper {
+        margin: 1em; 
+         
+    
+    } 
+    .wrapperTwo {
+        display: flex; 
+        justify-content: center; 
+        order: 1; 
+        width: 20%; 
+        background: white; 
+    
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .headerLinks {
+        padding-right: .5em; 
+    }
+
+    .nameboxWrapper {
+        margin-left: 2em; 
+        
+    }
+    .wrapperMain {
+        display: flex; 
+        margin-left: 10%; 
+        flex-direction: column; 
+        width: 100%; 
+        margin-top: 2em; 
+        margin-bottom: 5em; 
+    
+    }
+    
+    .wrapperOne {
+        display: flex;  
+        order: 1; 
+        width: 80%;  
+        margin-right: 2em; 
+        background: white; 
+    
+    }
+    
+    .boutMeWrapper {
+        margin: 1em; 
+    
+    }
+    
+    .wrapperTwo {
+        display: flex; 
+        justify-content: center; 
+        order: 1; 
+        width: 80%; 
+        margin-top: 1em; 
+        background: white; 
+    
+    }
+
+    #profilePic {
+        float: left; 
+        padding-right: 1em;
+        margin-left: 0%; 
+    }
+
+  
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .headerWrapper {
+        display: flex;
+        width: 100%; 
+        flex-direction: column; 
+        background-color: white; 
+        border-bottom: solid; 
+        border-width: 1px; 
+        border-color: grey; 
+    }
+    
+    .nameboxWrapper {
+        margin-left: 0%; 
+        width: 100%; 
+    }
+    
+    .nameBox {
+        margin-left: 0%; 
+        font-family: 'BioRhyme', serif;
+        letter-spacing: .05em;
+        font-weight: 500; 
+        font-size: 24px; 
+        font-weight: bold;    
+        background-color: #4aaaa5;
+        color: white; 
+    }
+    
+    .navBar {
+        list-style-type: none;
+        font-family: 'BioRhyme', serif;
+        border-width: 2px;
+
+    }
+    
+    .headerLinks {
+        color: grey;   
+        list-style-type: none;
+        float: left;
+    }
+    
+    #profilePic {
+        float: none; 
+        padding-bottom: 1em; 
+        padding-left: 17%; 
+    }
+}
+
+
+
