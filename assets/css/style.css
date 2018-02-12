@@ -134,6 +134,7 @@ form {
 
 .contactWrapper {
     width: 100%; 
+    padding: 1em; 
 
 }
 
@@ -306,7 +307,6 @@ a {
         background: white; 
     
     }
-
     #profilePic {
         float: left; 
         padding-right: 1em;
