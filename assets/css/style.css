@@ -118,7 +118,6 @@ hr {
     margin-bottom: 1em;
 }
 
-
 #boutMeText {
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 10px; 
@@ -130,17 +129,22 @@ a:link {
 
 form {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 10px; 
+    /* padding-top: 10px;  */
+}
+
+.contactWrapper {
+    width: 100%; 
+    padding: 1em; 
+
 }
 
 .formField {
     font-family: 'Source Sans Pro', sans-serif;
-    position: relative; 
+    /* position: relative; 
     top: 2em; 
     left: 10%; 
-    margin-right: 50%;
+    margin-right: 50%; */
     background: white; 
-    padding: 15px 15px 15px 15px;
 }
 
 .folioGrid {
